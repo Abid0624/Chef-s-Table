@@ -1,0 +1,95 @@
+[
+  {
+    "recipe_image": "https://i.ibb.co.com/yNxL2fV/stir-fry-chicken-zucchini-sweet-peppers-green-onion.jpg",
+    "recipe_id": 101,
+    "recipe_name": "Chicken Stir Fry",
+    "short_description": "A quick and delicious stir-fried chicken with vegetables.",
+    "ingredients": [
+      "500 g chicken breast",
+      "1 bell pepper",
+      "100 g broccoli",
+      "2 tbsp soy sauce",
+      "1 tbsp olive oil"
+    ],
+    "preparing_time": "20 min",
+    "calories": "350 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co.com/fqBQRx7/spicy-spaghetti-frying-pan-1.jpg",
+    "recipe_id": 102,
+    "recipe_name": "Spaghetti Carbonara",
+    "short_description": "Creamy spaghetti with bacon and Parmesan cheese.",
+    "ingredients": [
+      "200 g spaghetti",
+      "100 g bacon",
+      "2 eggs",
+      "50 g Parmesan cheese",
+      "1 clove garlic"
+    ],
+    "preparing_time": "25 min",
+    "calories": "450 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co.com/G9GMCX1/plate-salmon-steak-with-broccoli.jpg",
+    "recipe_id": 103,
+    "recipe_name": "Grilled Salmon",
+    "short_description": "Healthy grilled salmon with a touch of lemon and herbs.",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 lemon",
+      "1 tbsp olive oil",
+      "1 tsp thyme",
+      "Salt and pepper"
+    ],
+    "preparing_time": "15 min",
+    "calories": "300 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co.com/q5fNbtL/chicken-stir-fried-chili-along-with-bell-pepper-tomatoes-carrots.jpg",
+    "recipe_id": 104,
+    "recipe_name": "Vegetable Curry",
+    "short_description": "A flavorful vegetable curry with coconut milk.",
+    "ingredients": [
+      "1 can coconut milk",
+      "100 g spinach",
+      "1 carrot",
+      "1 potato",
+      "1 tbsp curry powder"
+    ],
+    "preparing_time": "30 min",
+    "calories": "280 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co.com/vzKMvrf/plate-biryani-with-bunch-food-it.jpg",
+    "recipe_id": 106,
+    "recipe_name": "Biryani",
+    "short_description": "A flavorful rice dish with spiced meat and vegetables.",
+    "ingredients": [
+      "500 g chicken or beef",
+      "2 cups basmati rice",
+      "1 onion",
+      "2 tomatoes",
+      "1 tbsp garam masala",
+      "1 tsp turmeric",
+      "2 tbsp yogurt"
+    ],
+    "preparing_time": "40 min",
+    "calories": "600 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co.com/VDDnGfP/grilled-beef-burger-with-fries-cheese-tomato-generative-ai.jpg",
+    "recipe_id": 107,
+    "recipe_name": "Burger",
+    "short_description": "Classic beef burger with fresh toppings and cheese.",
+    "ingredients": [
+      "200 g beef patty",
+      "1 burger bun",
+      "Lettuce",
+      "Tomato",
+      "Cheese slice",
+      "Ketchup and mustard"
+    ],
+    "preparing_time": "15 min",
+    "calories": "500 calories"
+  }
+]
