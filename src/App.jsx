@@ -8,6 +8,8 @@ import Sidebar from "./Components/Sidebar/Sidebar";
 const App = () => {
   const [recipeQueue, setRecipeQueue] = useState([]);
   const [preparedRecipe, setPreparedRecipe] = useState([]);
+  const [totalTime, setTotalTime] = useState(0);
+  const [totalCalories, setTotalCalories] = useState(0);
 
   const addRecipeToQueue = (recipe) => {
     const isExist = recipeQueue.find(
@@ -22,8 +24,8 @@ const App = () => {
 
   // console.log(recipeQueue);
 
-  const handleRemove = (id) => {
-    // find which recipe to remove
+  const handleRemoved = (id) => {
+    // find which recipe to delete
     const deletedRecipe = recipeQueue.find((recipe) => recipe.recipe_id === id);
 
     // remove from want to cook table
@@ -31,7 +33,14 @@ const App = () => {
       (recipe) => recipe.recipe_id !== id
     );
     setRecipeQueue(updatedQueue);
-    setPreparedRecipe(deletedRecipe);
+    setPreparedRecipe([...preparedRecipe, deletedRecipe]);
+  };
+
+  const calculateTimeAndCalories = (time, calories) => {
+    const timeNumber = parseInt(time);
+    const caloriesNumber = parseFloat(calories);
+    setTotalTime(totalTime + timeNumber);
+    setTotalCalories(totalCalories + caloriesNumber);
   };
 
   return (
@@ -48,8 +57,12 @@ const App = () => {
         <Recipes addRecipeToQueue={addRecipeToQueue}></Recipes>
         {/* side bar */}
         <Sidebar
-          handleRemove={handleRemove}
+          handleRemoved={handleRemoved}
           recipeQueue={recipeQueue}
+          preparedRecipe={preparedRecipe}
+          calculateTimeAndCalories={calculateTimeAndCalories}
+          totalTime={totalTime}
+          totalCalories={totalCalories}
         ></Sidebar>
       </section>
     </div>
